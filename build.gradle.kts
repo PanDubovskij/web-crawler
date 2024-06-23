@@ -18,6 +18,8 @@ repositories {
 }
 
 dependencies {
+    implementation("org.jsoup:jsoup:1.17.2")
+
     implementation("org.springframework.boot:spring-boot-starter")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
